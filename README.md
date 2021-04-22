@@ -157,15 +157,6 @@ ls  -a
     4. Selecciona la pestaña **Management Tools, Name Servers**
     5. Elige la opción** Custom Name Servers**
     6. Deberás ingresar a Route 53 y buscar en tu Hosted Zone los NS
-
-
-
-
-
-![alt_text](images/image10.png "image_tooltip")
-
-
-
     7. Copia y pega dichos valores en freenom
 
 4. Selecciona **Create record** en **Route53**
