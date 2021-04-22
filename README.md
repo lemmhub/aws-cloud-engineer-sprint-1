@@ -84,15 +84,17 @@ systemctl start httpd
 4. Clona el repositorio del Sprint
 
 ```
-git clone https://github.com/lemmhub/aws-cloud-engineer-sprint-1 ```
+git clone https://github.com/lemmhub/aws-cloud-engineer-sprint-1 
+```
 
 
 
 
 5. Descomprime la carpeta del repositorio
 
- ```
-unzip aws-cloud-engineer-sprint-1/CloudSprint_1.zip ```
+```
+unzip aws-cloud-engineer-sprint-1/CloudSprint_1.zip 
+```
 
 
 
