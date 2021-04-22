@@ -71,71 +71,28 @@ Utilizaremos registros de dominios gratuitos para integrar con Route53, te recom
     5. Resguarda las 
 2. En el paso **3.** **Configure Instance **ingresa el siguiente código para lanzar un servidor web
 
-<table>
-  <tr>
-   <td>
 
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image3.png" width="" alt="alt_text" title="image_tooltip">
-
-   </td>
-   <td>#!/bin/bash
-<p>
+```#!/bin/bash
 yum -y install httpd
-<p>
 systemctl enable httpd
-<p>
 systemctl start httpd
-   </td>
-  </tr>
-</table>
-
+```
 
 
 
 3. Inicializa un ambiente de **Cloud9** y conéctate a la instancia lanzada
 4. Clona el repositorio del Sprint
 
-<table>
-  <tr>
-   <td>
-
-
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image4.png" width="" alt="alt_text" title="image_tooltip">
-
-   </td>
-   <td>git clone <a href="https://github.com/lemmhub/aws-cloud-engineer-sprint-1">https://github.com/lemmhub/aws-cloud-engineer-sprint-1</a>
-   </td>
-  </tr>
-</table>
+```
+git clone https://github.com/lemmhub/aws-cloud-engineer-sprint-1 ```
 
 
 
 
 5. Descomprime la carpeta del repositorio
 
-<table>
-  <tr>
-   <td>
-
-
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image5.png" width="" alt="alt_text" title="image_tooltip">
-
-   </td>
-   <td> unzip aws-cloud-engineer-sprint-1/CloudSprint_1.zip
-   </td>
-  </tr>
-</table>
-
+ ```
+unzip aws-cloud-engineer-sprint-1/CloudSprint_1.zip ```
 
 
 
@@ -174,21 +131,9 @@ ls  -a
 
 7. Revisa el aplicativo desplegado
 
-<table>
-  <tr>
-   <td>
 
-
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image7.png" width="" alt="alt_text" title="image_tooltip">
-
-   </td>
    <td><strong>Challenge :</strong> Recrea el aplicativo como un sitio estático en S3
    </td>
-  </tr>
-</table>
 
 
 
@@ -300,21 +245,9 @@ ls  -a
 8. Busca** Route 53, **click en **Configure**
 9. Solo deberás ingresar el número de **Hosted Zones = 1**
 
-<table>
-  <tr>
-   <td>
 
-
-<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image13.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image13.png" width="" alt="alt_text" title="image_tooltip">
-
-   </td>
    <td><strong>Challenge :</strong> Realiza un reporte similar basado en S3
    </td>
-  </tr>
-</table>
 
 
 
