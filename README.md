@@ -146,24 +146,33 @@ ls  -a
     4. Copia y pega dichos valores en freenom
 
 4. Selecciona **Create record** en **Route53**
-        1. Elige **Simple routing**
-        2. Click en **Next**
-        3. Selecciona **Define simple record**
-        4. Elige: **A – Routes traffic to an IPv4 address and some AWS resources**
-        5. Value/Route traffic to: **IP address or another, depending on the record type**
-        6. Ingresa la **IP de la instancia**
-        7. Click en **Define simple record**
-        8. Prueba  la liga del dominio de freenom
+    1. Elige **Simple routing**
+    2. Click en **Next**
+    3.Selecciona **Define simple record**
+    4. Elige: **A – Routes traffic to an IPv4 address and some AWS resources**
+    5. Value/Route traffic to: **IP address or another, depending on the record type**
+    6. Ingresa la **IP de la instancia**
+    7. Click en **Define simple record**
+    8. Prueba  la liga del dominio de freenom
+
+
+        
 5. Elimina el record creado y genera uno para el sitio web estático en S3
 6. Selecciona **Create record** en **Route53**
-        1. Elige **Simple routing**
-        2. Click en **Next**
-        3. Selecciona **Define simple record**
-        4. Elige: **A – Routes traffic to an IPv4 address and some AWS resources**
-        5. Value/Route traffic to: **Alias to S3 website endpoint**
-        6. Ingresa la **url del sitio estático**
-        7. Click en **Define simple record**
-        8. Prueba  la liga del dominio de freenom
+    1. Elige **Simple routing**
+    2. Click en **Next**
+    3. Selecciona **Define simple record**
+    4. Elige: **A – Routes traffic to an IPv4 address and some AWS resources**
+    5. Value/Route traffic to: **Alias to S3 website endpoint**
+    6. Ingresa la **url del sitio estático**
+    7. Click en **Define simple record**
+    8. Prueba  la liga del dominio de freenom
+
+1. Item 1
+1. Item 2
+1. Item 3
+   1. Item 3a
+   1. Item 3b
 
 
 # Paso 4: Revisar los costos de la implementación
@@ -175,11 +184,7 @@ ls  -a
 4. Click en **Configure**
 5. Prueba las distintas configuraciones de costos
 
-. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
+
 
 <p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image12.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
