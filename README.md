@@ -99,36 +99,17 @@ unzip aws-cloud-engineer-sprint-1/CloudSprint_1.zip
 
 
 6. Copia la carpeta descomprimida en la ruta de apache para ejecutar el aplicativo
-
-<table>
-  <tr>
-   <td>
-
-
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image6.png" width="" alt="alt_text" title="image_tooltip">
-
-   </td>
-   <td>#Asegúrate de estar en la carpeta de git
-<p>
+```
+#Asegúrate de estar en la carpeta de git
 cd CloudSprint_1/
-<p>
+
  sudo mv index.html /var/www/html/
-<p>
 sudo mv images/ /var/www/html/
-<p>
+
 #revisa la carpeta de apache
-<p>
 cd /var/www/html/
-<p>
 ls  -a
-   </td>
-  </tr>
-</table>
-
-
+```
 
 
 7. Revisa el aplicativo desplegado
