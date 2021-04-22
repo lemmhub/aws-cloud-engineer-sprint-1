@@ -140,30 +140,30 @@ ls  -a
 
 
 3.  Selecciona **Create record**
-    4. Selecciona la pestaña **Management Tools, Name Servers**
-    5. Elige la opción** Custom Name Servers**
-    6. Deberás ingresar a Route 53 y buscar en tu Hosted Zone los NS
-    7. Copia y pega dichos valores en freenom
+    1. Selecciona la pestaña **Management Tools, Name Servers**
+    2. Elige la opción** Custom Name Servers**
+    3. Deberás ingresar a Route 53 y buscar en tu Hosted Zone los NS
+    4. Copia y pega dichos valores en freenom
 
 4. Selecciona **Create record** en **Route53**
-        8. Elige **Simple routing**
-        9. Click en **Next**
-        10. Selecciona **Define simple record**
-        11. Elige: **A – Routes traffic to an IPv4 address and some AWS resources**
-        12. Value/Route traffic to: **IP address or another, depending on the record type**
-        13. Ingresa la **IP de la instancia**
-        14. Click en **Define simple record**
-    15. Prueba  la liga del dominio de freenom
+        1. Elige **Simple routing**
+        2. Click en **Next**
+        3. Selecciona **Define simple record**
+        4. Elige: **A – Routes traffic to an IPv4 address and some AWS resources**
+        5. Value/Route traffic to: **IP address or another, depending on the record type**
+        6. Ingresa la **IP de la instancia**
+        7. Click en **Define simple record**
+        8. Prueba  la liga del dominio de freenom
 5. Elimina el record creado y genera uno para el sitio web estático en S3
 6. Selecciona **Create record** en **Route53**
-        16. Elige **Simple routing**
-        17. Click en **Next**
-        18. Selecciona **Define simple record**
-        19. Elige: **A – Routes traffic to an IPv4 address and some AWS resources**
-        20. Value/Route traffic to: **Alias to S3 website endpoint**
-        21. Ingresa la **url del sitio estático**
-        22. Click en **Define simple record**
-        23. Prueba  la liga del dominio de freenom
+        1. Elige **Simple routing**
+        2. Click en **Next**
+        3. Selecciona **Define simple record**
+        4. Elige: **A – Routes traffic to an IPv4 address and some AWS resources**
+        5. Value/Route traffic to: **Alias to S3 website endpoint**
+        6. Ingresa la **url del sitio estático**
+        7. Click en **Define simple record**
+        8. Prueba  la liga del dominio de freenom
 
 
 # Paso 4: Revisar los costos de la implementación
