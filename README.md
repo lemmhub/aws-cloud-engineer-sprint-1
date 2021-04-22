@@ -132,24 +132,10 @@ ls  -a
 
 
 
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image8.png "image_tooltip")
-
-
-
 
 2. Deberás configurar freenom para poder vincular con Route53
     1. Ingresa en **My domains**
     2. Selecciona **Manage Domain** en el dominio creado
-
-
-
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image9.png "image_tooltip")
 
 
 
@@ -161,12 +147,6 @@ ls  -a
 
 4. Selecciona **Create record** en **Route53**
     8. Elige **Simple routing**
-
-![alt_text](images/image11.png "image_tooltip")
-
-
-
-
     9. Click en **Next**
     10. Selecciona **Define simple record**
     11. Elige: **A – Routes traffic to an IPv4 address and some AWS resources**
