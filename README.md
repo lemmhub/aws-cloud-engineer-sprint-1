@@ -142,7 +142,7 @@ ls  -a
 
 2. Deberás configurar freenom para poder vincular con Route53
     1. Ingresa en **My domains**
-    2. Selecciona **Manage Domain **en el dominio creado
+    2. Selecciona **Manage Domain** en el dominio creado
 
 
 
@@ -153,8 +153,6 @@ ls  -a
 
 
 
-
-    3. 
 3.  Selecciona **Create record**
     4. Selecciona la pestaña **Management Tools, Name Servers**
     5. Elige la opción** Custom Name Servers**
@@ -171,13 +169,8 @@ ls  -a
 
 
     7. Copia y pega dichos valores en freenom
-4. Selecciona **Create record **en **Route53**
+4. Selecciona **Create record** en **Route53**
     8. Elige **Simple routing**
-
-
-
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image11.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
 
 ![alt_text](images/image11.png "image_tooltip")
 
@@ -192,7 +185,7 @@ ls  -a
     14. Click en **Define simple record**
     15. Prueba  la liga del dominio de freenom
 5. Elimina el record creado y genera uno para el sitio web estático en S3
-6. Selecciona **Create record **en **Route53**
+6. Selecciona **Create record** en **Route53**
     16. Elige **Simple routing**
     17. Click en **Next**
     18. Selecciona **Define simple record**
@@ -204,7 +197,6 @@ ls  -a
 
 
 # Paso 4: Revisar los costos de la implementación
-
 
 
 1. Ingresa la [calculadora de costos de AWS](https://calculator.aws/#/)
