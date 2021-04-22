@@ -146,24 +146,24 @@ ls  -a
     7. Copia y pega dichos valores en freenom
 
 4. Selecciona **Create record** en **Route53**
-    8. Elige **Simple routing**
-    9. Click en **Next**
-    10. Selecciona **Define simple record**
-    11. Elige: **A – Routes traffic to an IPv4 address and some AWS resources**
-    12. Value/Route traffic to: **IP address or another, depending on the record type**
-    13. Ingresa la **IP de la instancia**
-    14. Click en **Define simple record**
+        8. Elige **Simple routing**
+        9. Click en **Next**
+        10. Selecciona **Define simple record**
+        11. Elige: **A – Routes traffic to an IPv4 address and some AWS resources**
+        12. Value/Route traffic to: **IP address or another, depending on the record type**
+        13. Ingresa la **IP de la instancia**
+        14. Click en **Define simple record**
     15. Prueba  la liga del dominio de freenom
 5. Elimina el record creado y genera uno para el sitio web estático en S3
 6. Selecciona **Create record** en **Route53**
-    16. Elige **Simple routing**
-    17. Click en **Next**
-    18. Selecciona **Define simple record**
-    19. Elige: **A – Routes traffic to an IPv4 address and some AWS resources**
-    20. Value/Route traffic to: **Alias to S3 website endpoint**
-    21. Ingresa la **url del sitio estático**
-    22. Click en **Define simple record**
-    23. Prueba  la liga del dominio de freenom
+        16. Elige **Simple routing**
+        17. Click en **Next**
+        18. Selecciona **Define simple record**
+        19. Elige: **A – Routes traffic to an IPv4 address and some AWS resources**
+        20. Value/Route traffic to: **Alias to S3 website endpoint**
+        21. Ingresa la **url del sitio estático**
+        22. Click en **Define simple record**
+        23. Prueba  la liga del dominio de freenom
 
 
 # Paso 4: Revisar los costos de la implementación
@@ -187,7 +187,7 @@ ls  -a
 
 6. Selecciona **Add to my estimate**
 7. Click en **Add service**
-8. Busca** Route 53, **click en **Configure**
+8. Busca **Route 53**, **click** en **Configure**
 9. Solo deberás ingresar el número de **Hosted Zones = 1**
 
 
@@ -196,12 +196,3 @@ ls  -a
 
 
 
-```
-¡Felicidades, has terminado el laboratorio! 👏 
-Ayúdanos a mejorar y califica tu experiencia
-⭐
-⭐⭐
-⭐⭐⭐
-⭐⭐⭐⭐
-⭐⭐⭐⭐⭐
-¿Comentarios? Escríbenos a labs@bootcamp.institute
