@@ -160,15 +160,14 @@ ls  -a
 
 
 
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image10.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/image10.png "image_tooltip")
 
 
 
-
     7. Copia y pega dichos valores en freenom
+
 4. Selecciona **Create record** en **Route53**
     8. Elige **Simple routing**
 
