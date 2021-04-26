@@ -36,28 +36,14 @@ Utilizaremos registros de dominios gratuitos para integrar con Route53, te recom
 4. Ingresa tu información de contacto, recibirás un correo electrónico de confirmación
 5. Inicia sesión con la cuenta creada en freenom
 
-
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
-
-
-
+![Test Image 1](/images/pic-1.png)
 
 6. Click en la pestaña de **Services**
 7. Selecciona **My Domains**
 8. Observarás que el dominio solicitado se muestra en el tablero
 
 
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-
-![Test Image 1](/images/pic-1.png)
-
+![Test Image 2](/images/pic-2.png)
 
 
 
@@ -132,6 +118,7 @@ ls  -a
     3. Ingresa los nombres del dominio
     4. Click en **Create  hosted zone**
 
+![Test Image 3](/images/pic-3.png)
 
 
 
@@ -139,6 +126,7 @@ ls  -a
     1. Ingresa en **My domains**
     2. Selecciona **Manage Domain** en el dominio creado
 
+![Test Image 4](/images/pic-4.png)
 
 
 3.  Selecciona **Create record**
@@ -146,6 +134,8 @@ ls  -a
     2. Elige la opción** Custom Name Servers**
     3. Deberás ingresar a Route 53 y buscar en tu Hosted Zone los NS
     4. Copia y pega dichos valores en freenom
+
+![Test Image 5](/images/pic-5.png)
 
 4. Selecciona **Create record** en **Route53**
     1. Elige **Simple routing**
@@ -170,6 +160,8 @@ ls  -a
     7. Click en **Define simple record**
     8. Prueba  la liga del dominio de freenom
 
+![Test Image 6](/images/pic-6.png)
+
 
 
 # Paso 4: Revisar los costos de la implementación
@@ -183,12 +175,7 @@ ls  -a
 
 
 
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image12.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image12.png "image_tooltip")
-
-
+![Test Image 7](/images/pic-7.png)
 
 
 6. Selecciona **Add to my estimate**
