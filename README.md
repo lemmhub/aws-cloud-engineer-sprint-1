@@ -56,7 +56,7 @@ Utilizaremos registros de dominios gratuitos para integrar con Route53, te recom
 
 
 
-![Test Image 1](aws-cloud-engineer-sprint-1/images/pic-1.png)
+![Test Image 1](/images/pic-1.png)
 
 
 
