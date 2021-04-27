@@ -47,7 +47,7 @@ Utilizaremos registros de dominios gratuitos para integrar con Route53, te recom
 
 
 
-# Paso 2: Desplegar el aplicativo en EC2
+# Paso 2: Desplegar el servicio en EC2
 
 
 
@@ -86,7 +86,7 @@ unzip aws-cloud-engineer-sprint-1/CloudSprint_1.zip
 
 
 
-6. Copia la carpeta descomprimida en la ruta de apache para ejecutar el aplicativo
+6. Copia la carpeta descomprimida en la ruta de apache para ejecutar
 ```
 #Asegúrate de estar en la carpeta de git
 cd CloudSprint_1/
@@ -100,7 +100,7 @@ ls  -a
 ```
 
 
-7. Revisa el aplicativo desplegado
+7. Revisa el servicio desplegado
 
 
    <td><strong>Challenge :</strong> Recrea el aplicativo como un sitio estático en S3
